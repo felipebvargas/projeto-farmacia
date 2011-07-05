@@ -14,6 +14,4 @@ public abstract class FWAction extends AbstractAction {
     public FWAction(String nomeAcao) {
         super(nomeAcao);
     }
-
-
 }

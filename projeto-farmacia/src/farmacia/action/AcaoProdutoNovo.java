@@ -1,9 +1,8 @@
-
 package farmacia.action;
+
 import java.awt.event.ActionEvent;
 import farmacia.apresentacao.GestorJanela;
 import farmacia.apresentacao.JanelaInternaProdutoNovo;
-
 
 public class AcaoProdutoNovo extends FWAction {
 
@@ -18,4 +17,3 @@ public class AcaoProdutoNovo extends FWAction {
 
     }
 }
-

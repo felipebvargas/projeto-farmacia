@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import farmacia.apresentacao.GestorJanela;
 import farmacia.apresentacao.JanelaInternaProdutoLista;
 
-
 public class AcaoProdutoListar extends FWAction {
 
     public AcaoProdutoListar() {

@@ -1,5 +1,3 @@
-
-
 package farmacia.action;
 
 import farmacia.apresentacao.GestorJanela;

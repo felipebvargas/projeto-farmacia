@@ -1,15 +1,8 @@
 package farmacia.apresentacao;
 
-import java.awt.Point;
-import java.beans.PropertyVetoException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JDesktopPane;
-import javax.swing.JInternalFrame;
-
 
 public class GestorJanela {
-
 
     final int ALTURA = 30; // altura entre as janelas
     final int DISTANCIA = 20; // distancia entre as janelas
@@ -29,8 +22,6 @@ public class GestorJanela {
         }
         return gestor;
     }
-
-   
 
     public void abrir(JanelaInternaBase janela ) {
 
