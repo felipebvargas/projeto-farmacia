@@ -1,7 +1,4 @@
-
-
 package farmacia.modelo;
-
 
 public class Endereco {
 
@@ -10,28 +7,25 @@ public class Endereco {
     private String bairro;
     private String cidade;
 
-
     public Endereco comRua(String rua) {
         setRua(rua);
         return this;
     }
 
-    public Endereco comCep (String cep) {
+    public Endereco comCep(String cep) {
         setCep(cep);
         return this;
     }
 
-    public Endereco comBairro (String bairro) {
+    public Endereco comBairro(String bairro) {
         setBairro(bairro);
         return this;
     }
 
-    public Endereco comCidade (String cidade) {
+    public Endereco comCidade(String cidade) {
         setCidade(cidade);
         return this;
     }
-
-
 
     public String getBairro() {
         return bairro;
@@ -69,9 +63,4 @@ public class Endereco {
     public String toString() {
         return "{" + rua + "}";
     }
-
-
-
-
-
 }

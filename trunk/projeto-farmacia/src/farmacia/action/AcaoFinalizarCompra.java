@@ -1,12 +1,8 @@
-
 package farmacia.action;
-
 
 import farmacia.apresentacao.GestorJanela;
 import farmacia.apresentacao.JanelaInternaFinalizarCompras;
-
 import java.awt.event.ActionEvent;
-
 
 public class AcaoFinalizarCompra  extends FWAction {
 
