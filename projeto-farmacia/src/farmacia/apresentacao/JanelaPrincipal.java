@@ -28,7 +28,7 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
     private JMenuItem mniProdutoLista;
     private JMenu mnRelatório;
     private JMenuItem mniFecharCompra;
-      private JMenuItem mniLoginNormal;
+    private JMenuItem mniLoginNormal;
     private JMenuItem mniLoginAdmin;
 
     public JanelaPrincipal() {
@@ -137,5 +137,4 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
     private Action acaoNovoCliente = new AcaoClienteNovo();
     private Action acaoCadastrarProdutos = new AcaoProdutoNovo();
     private Action acaoFinalizarCompra = new AcaoFinalizarCompra();
-   
 }

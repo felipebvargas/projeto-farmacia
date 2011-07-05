@@ -17,12 +17,12 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
         buttonGroup1 = new javax.swing.ButtonGroup();
         buttonGroup2 = new javax.swing.ButtonGroup();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        Tabela = new javax.swing.JTable();
         btFecharCompra = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        tfValorTotal = new javax.swing.JTextField();
         jRadioButton1 = new javax.swing.JRadioButton();
         jRadioButton2 = new javax.swing.JRadioButton();
         jRadioButton3 = new javax.swing.JRadioButton();
@@ -30,7 +30,7 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
         setMinimumSize(new java.awt.Dimension(400, 400));
         setPreferredSize(new java.awt.Dimension(400, 400));
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        Tabela.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
                 {null, null, null},
@@ -41,7 +41,7 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
                 "Descrição", "Quantidade", "Valor"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(Tabela);
 
         btFecharCompra.setText("Finalizar Operação");
         btFecharCompra.addActionListener(new java.awt.event.ActionListener() {
@@ -56,9 +56,9 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
 
         jLabel3.setText("Valor Total");
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        tfValorTotal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                tfValorTotalActionPerformed(evt);
             }
         });
 
@@ -75,20 +75,20 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
             .addGroup(layout.createSequentialGroup()
                 .addGap(126, 126, 126)
                 .addComponent(jLabel1)
-                .addContainerGap(158, Short.MAX_VALUE))
+                .addContainerGap(129, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(178, Short.MAX_VALUE)
+                        .addContainerGap(177, Short.MAX_VALUE)
                         .addComponent(jLabel3)
                         .addGap(18, 18, 18)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(tfValorTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addGap(37, 37, 37)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(37, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -111,7 +111,7 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tfValorTotal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(75, 75, 75)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -121,15 +121,15 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
                     .addComponent(jRadioButton3))
                 .addGap(39, 39, 39)
                 .addComponent(btFecharCompra)
-                .addContainerGap(39, Short.MAX_VALUE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void tfValorTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfValorTotalActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_tfValorTotalActionPerformed
 
     private void btFecharCompraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btFecharCompraActionPerformed
 
@@ -137,6 +137,7 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
     }//GEN-LAST:event_btFecharCompraActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTable Tabela;
     private javax.swing.JButton btFecharCompra;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
@@ -147,8 +148,7 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField tfValorTotal;
     // End of variables declaration//GEN-END:variables
 
     @Override
