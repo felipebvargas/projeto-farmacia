@@ -41,77 +41,7 @@ public class GestorJanela {
         areaTrabalho.getDesktopManager().activateFrame(janela);
 
     }
-
-     public void fecharTodasJanelas() {
-        JInternalFrame[] janelas = areaTrabalho.getAllFrames();
-
-        for (JInternalFrame janela : janelas){
-            janela.dispose();
-
-         }
-
-    }
-      public void minimizarTodasJanelas() {
-        JInternalFrame[] janelas = areaTrabalho.getAllFrames();
-
-        for (JInternalFrame janela : janelas){
-            try {
-                janela.setIcon(true);
-            } catch (PropertyVetoException ex) {
-                Logger.getLogger(GestorJanela.class.getName()).log(Level.SEVERE, null, ex);
-            }
-
-        }
-
-    }
-
-       public void RestaurarTodasJanelas() {
-        JInternalFrame[] janelas = areaTrabalho.getAllFrames();
-
-        for (JInternalFrame janela : janelas){
-            try {
-                janela.setIcon(false);
-            } catch (PropertyVetoException ex) {
-                Logger.getLogger(GestorJanela.class.getName()).log(Level.SEVERE, null, ex);
-            }
-
-        }
-    }
+    //tirei o metodo fecharTodasJanelas();minimizarTodasJanelas();RestaurarTodasJanelas(); pois estas
+    //não estavam sendo utilizadas!!!
        
-       public void Reorganizar() {
-        JInternalFrame[] janelas = areaTrabalho.getAllFrames();
-
-
-
-          if ( areaTrabalho.getAllFrames().length > 0) {
-
-          
-            JInternalFrame ultimaJanela = janelas[0];
-
-            Point novaPosicao = new Point(ultimaJanela.getX() + ALTURA, ultimaJanela.getY() + DISTANCIA);
-
-            if ((novaPosicao.y + ultimaJanela.getHeight()) > areaTrabalho.getHeight()) {
-                novaPosicao = new Point(ultimaJanela.getX() + ALTURA, 0);
-            }
-
-            if ((novaPosicao.x + ultimaJanela.getWidth()) > areaTrabalho.getWidth()) {
-                novaPosicao = new Point(0, 0);
-            }
-             int l = 0;
-             int a = 0;
-             for (JInternalFrame janela : janelas){
-
-                          
-                 janela.setLocation(a, l);
-
-                 a += 20;
-                 l += 20;
-            
-        }
-            
-        }
-
-    }
-
-
 }
