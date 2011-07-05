@@ -40,7 +40,6 @@ public class GestorJanela {
         areaTrabalho.add(janela);
         areaTrabalho.getDesktopManager().activateFrame(janela);
 
-
     }
 
      public void fecharTodasJanelas() {
@@ -49,9 +48,7 @@ public class GestorJanela {
         for (JInternalFrame janela : janelas){
             janela.dispose();
 
-        }
-
-
+         }
 
     }
       public void minimizarTodasJanelas() {

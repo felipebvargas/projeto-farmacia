@@ -22,7 +22,7 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        Tabela = new javax.swing.JTable();
         btClienteNovo = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         campo_busca = new javax.swing.JTextField();
@@ -31,7 +31,7 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
         setMinimumSize(new java.awt.Dimension(400, 400));
         setPreferredSize(new java.awt.Dimension(400, 400));
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        Tabela.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -42,7 +42,7 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
                 "Nome", "CPF", "Cartão", "Debitos", "Creditos"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(Tabela);
 
         btClienteNovo.setText("jButton1");
         btClienteNovo.addActionListener(new java.awt.event.ActionListener() {
@@ -72,7 +72,7 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
                         .addComponent(btClienteNovo))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 364, Short.MAX_VALUE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 392, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(51, 51, 51)
                         .addComponent(jLabel1)
@@ -90,7 +90,7 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
                     .addComponent(jLabel1)
                     .addComponent(campo_busca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btBuscarProduto))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btClienteNovo)
@@ -108,12 +108,12 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
 }//GEN-LAST:event_campo_buscaActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTable Tabela;
     private javax.swing.JButton btBuscarProduto;
     private javax.swing.JButton btClienteNovo;
     private javax.swing.JTextField campo_busca;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 
     @Override
