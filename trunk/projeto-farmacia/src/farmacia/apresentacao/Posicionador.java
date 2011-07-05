@@ -6,14 +6,11 @@ import javax.swing.JInternalFrame;
 
 public class Posicionador {
 
-
     final int ALTURA = 30; // altura entre as janelas
     final int DISTANCIA = 20; // distancia entre as janelas
 
     public Posicionador() {
     }
-
-
 
     public void posicionar(JanelaInternaBase janela, JDesktopPane areaTrabalho) {
 
@@ -36,7 +33,4 @@ public class Posicionador {
         }
 
     }
-
-
-
-  }
+}
