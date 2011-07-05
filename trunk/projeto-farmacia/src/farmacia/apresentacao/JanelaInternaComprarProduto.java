@@ -13,8 +13,8 @@ public class JanelaInternaComprarProduto extends JanelaInternaBase {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jbComprar = new javax.swing.JButton();
-        jbCancelar = new javax.swing.JButton();
+        btComprar = new javax.swing.JButton();
+        btCancelar = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         tfDescricao = new javax.swing.JTextPane();
         jLabel1 = new javax.swing.JLabel();
@@ -28,17 +28,17 @@ public class JanelaInternaComprarProduto extends JanelaInternaBase {
         setMinimumSize(new java.awt.Dimension(400, 400));
         setPreferredSize(new java.awt.Dimension(400, 400));
 
-        jbComprar.setText("Comprar");
-        jbComprar.addActionListener(new java.awt.event.ActionListener() {
+        btComprar.setText("Comprar");
+        btComprar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbComprarActionPerformed(evt);
+                btComprarActionPerformed(evt);
             }
         });
 
-        jbCancelar.setText("Cancelar");
-        jbCancelar.addActionListener(new java.awt.event.ActionListener() {
+        btCancelar.setText("Cancelar");
+        btCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbCancelarActionPerformed(evt);
+                btCancelarActionPerformed(evt);
             }
         });
 
@@ -60,9 +60,9 @@ public class JanelaInternaComprarProduto extends JanelaInternaBase {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(75, 75, 75)
-                .addComponent(jbCancelar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btCancelar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(105, 105, 105)
-                .addComponent(jbComprar, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btComprar, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(69, 69, 69))
             .addGroup(layout.createSequentialGroup()
                 .addGap(30, 30, 30)
@@ -98,30 +98,30 @@ public class JanelaInternaComprarProduto extends JanelaInternaBase {
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(140, 140, 140)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jbComprar)
-                    .addComponent(jbCancelar))
+                    .addComponent(btComprar)
+                    .addComponent(btCancelar))
                 .addContainerGap(63, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jbCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbCancelarActionPerformed
+    private void btCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCancelarActionPerformed
         dispose();
-    }//GEN-LAST:event_jbCancelarActionPerformed
+    }//GEN-LAST:event_btCancelarActionPerformed
 
-    private void jbComprarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbComprarActionPerformed
+    private void btComprarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btComprarActionPerformed
         dispose();
-    }//GEN-LAST:event_jbComprarActionPerformed
+    }//GEN-LAST:event_btComprarActionPerformed
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btCancelar;
+    private javax.swing.JButton btComprar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JButton jbCancelar;
-    private javax.swing.JButton jbComprar;
     private javax.swing.JTextPane tfDescricao;
     private javax.swing.JTextPane tfQuant;
     private javax.swing.JTextPane tfValor;
