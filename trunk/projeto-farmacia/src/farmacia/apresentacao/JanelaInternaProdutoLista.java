@@ -2,7 +2,6 @@ package farmacia.apresentacao;
 
 import farmacia.action.AcaoFecharCompra;
 
-
 public class JanelaInternaProdutoLista extends JanelaInternaBase {
 
     private static final long serialVersionUID = 1L;
@@ -11,11 +10,7 @@ public class JanelaInternaProdutoLista extends JanelaInternaBase {
     public JanelaInternaProdutoLista() {
         initComponents();
 
-      
         btFecharCompra.setAction (new AcaoFecharCompra());
-
-
-
 
     }
 
@@ -106,7 +101,7 @@ public class JanelaInternaProdutoLista extends JanelaInternaBase {
     }// </editor-fold>//GEN-END:initComponents
 
     private void campo_buscaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campo_buscaActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_campo_buscaActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
