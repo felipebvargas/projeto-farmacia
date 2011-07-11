@@ -1,26 +1,18 @@
 package farmacia.apresentacao;
 
-
 public abstract class JanelaInternaBase extends javax.swing.JInternalFrame {
     private static final long serialVersionUID = 1L;
 
-
-   
-   
     public JanelaInternaBase() {
         initComponents();
-
         setSize(400, 350);
         setClosable(true);
         setResizable(false);
         setIconifiable(true);
-
         setTitle(tituloJanela());
-
         setVisible(true);
     }
 
-   
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -40,8 +32,6 @@ public abstract class JanelaInternaBase extends javax.swing.JInternalFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     public abstract String tituloJanela();
-
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
 

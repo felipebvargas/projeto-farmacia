@@ -9,12 +9,7 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
 
     public JanelaInternaClienteLista() {
         initComponents();
-
         btClienteNovo.setAction(new AcaoClienteNovo());
-
-
-
-
     }
 
     @SuppressWarnings("unchecked")
