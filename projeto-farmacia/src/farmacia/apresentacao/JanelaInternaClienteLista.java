@@ -66,16 +66,16 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
                         .addGap(140, 140, 140)
                         .addComponent(btClienteNovo))
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 392, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(51, 51, 51)
                         .addComponent(jLabel1)
-                        .addGap(57, 57, 57)
+                        .addGap(27, 27, 27)
                         .addComponent(campo_busca, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(btBuscarProduto)))
-                .addContainerGap())
+                        .addComponent(btBuscarProduto))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 368, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(36, 36, 36))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -113,6 +113,6 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
 
     @Override
     public String tituloJanela() {
-        return "Lista de Clientes";
+        return " Lista de Clientes ";
     }
 }
