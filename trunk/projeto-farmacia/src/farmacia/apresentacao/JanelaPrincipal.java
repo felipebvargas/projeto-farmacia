@@ -35,7 +35,7 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
         initComponents();
         this.setSize(800, 600);
         this.setLocationRelativeTo(null);
-        this.setTitle("Sistema de Farmacia - FarmeVida ");
+        this.setTitle(" Sistema de Farmácia - FarmeVida ");
         this.setResizable(false);
         montaMenu();
         montaBarraFerramentas();
@@ -85,7 +85,6 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
         mniFecharCompra = new JMenuItem(acaoFinalizarCompra);
         mnRelatório.add(mniFecharCompra);
 
-
     }
 
     @SuppressWarnings("unchecked")
@@ -132,6 +131,7 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
     private void montaBarraFerramentas() {
         barraFerramentas.setFloatable(false);
     }
+
     private Action acaoListarClientes = new AcaoClienteListar();
     private Action acaoListarProdutos = new AcaoProdutoListar();
     private Action acaoNovoCliente = new AcaoClienteNovo();

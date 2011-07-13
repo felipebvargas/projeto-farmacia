@@ -113,6 +113,6 @@ public class JanelaInternaClienteLista extends JanelaInternaBase {
 
     @Override
     public String tituloJanela() {
-        return " Lista de Clientes ";
+        return " Lista de Clientes da Farmácia!";
     }
 }
