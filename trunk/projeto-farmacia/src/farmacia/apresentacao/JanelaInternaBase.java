@@ -5,7 +5,7 @@ public abstract class JanelaInternaBase extends javax.swing.JInternalFrame {
 
     public JanelaInternaBase() {
         initComponents();
-        setSize(400, 350);
+        setSize(400, 450);
         setClosable(true);
         setResizable(false);
         setIconifiable(true);

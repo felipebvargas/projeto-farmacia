@@ -9,9 +9,7 @@ public class JanelaInternaProdutoLista extends JanelaInternaBase {
 
     public JanelaInternaProdutoLista() {
         initComponents();
-
         btFecharCompra.setAction (new AcaoFecharCompra());
-
     }
 
     @SuppressWarnings("unchecked")
@@ -68,9 +66,6 @@ public class JanelaInternaProdutoLista extends JanelaInternaBase {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(23, 23, 23)
                         .addComponent(jLabel1)
                         .addGap(57, 57, 57)
@@ -79,8 +74,11 @@ public class JanelaInternaProdutoLista extends JanelaInternaBase {
                         .addComponent(btBuscarProduto))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(128, 128, 128)
-                        .addComponent(btFecharCompra)))
-                .addContainerGap(64, Short.MAX_VALUE))
+                        .addComponent(btFecharCompra))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 366, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
