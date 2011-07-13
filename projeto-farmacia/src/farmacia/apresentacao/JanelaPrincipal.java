@@ -46,19 +46,19 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
 
         this.setJMenuBar(barraMenu);
 
-        mnSistema = new JMenu("Sistema");
+        mnSistema = new JMenu(" Sistema ");
         barraMenu.add(mnSistema);
-        mniLoginNormal = new JMenuItem("Atendente");
-        mniLoginAdmin = new JMenuItem("Supervisor");
+        mniLoginNormal = new JMenuItem(" Atendente ");
+        mniLoginAdmin = new JMenuItem(" Supervisor ");
         mnSistema.add(mniLoginNormal);
         mnSistema.add(mniLoginAdmin);
 
-        mniSair = new JMenuItem("Sair", new ImageIcon(JanelaPrincipal.class.getResource("/farmacia/imagens/sair.png")));
-        mniSair.setActionCommand("sair");
+        mniSair = new JMenuItem(" Sair ", new ImageIcon(JanelaPrincipal.class.getResource("/farmacia/imagens/sair.png")));
+        mniSair.setActionCommand(" Sair ");
         mniSair.addActionListener(this);
         mnSistema.add(mniSair);
 
-        mnCliente = new JMenu("Cliente");
+        mnCliente = new JMenu(" Cliente ");
         barraMenu.add(mnCliente);
 
         mniClienteNovo = new JMenuItem(acaoNovoCliente);
@@ -67,7 +67,7 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
         mniClienteLista = new JMenuItem(acaoListarClientes);
         mnCliente.add(mniClienteLista);
 
-        mnProduto = new JMenu("Produto");
+        mnProduto = new JMenu(" Produto ");
         barraMenu.add(mnProduto);
 
 
@@ -77,7 +77,7 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
         mniProdutoLista = new JMenuItem(acaoListarProdutos);
         mnProduto.add(mniProdutoLista);
 
-        mnRelatório = new JMenu("Relatório");
+        mnRelatório = new JMenu(" Relatório ");
         barraMenu.add(mnRelatório);
 
         mnRelatório.add(new JSeparator());
@@ -122,7 +122,7 @@ public class JanelaPrincipal extends javax.swing.JFrame implements ActionListene
     // End of variables declaration//GEN-END:variables
 
     public void actionPerformed(ActionEvent e) {
-        if (e.getActionCommand().equals("sair")) {
+        if (e.getActionCommand().equals(" Sair ")) {
             System.exit(0);
 
         }
