@@ -113,6 +113,6 @@ public class JanelaInternaProdutoLista extends JanelaInternaBase {
 
     @Override
     public String tituloJanela() {
-        return "Lista de produtos";
+        return "Lista de Produto(s)";
     }
 }

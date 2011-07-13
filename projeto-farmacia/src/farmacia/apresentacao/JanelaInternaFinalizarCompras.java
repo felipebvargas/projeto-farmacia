@@ -128,11 +128,10 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
     }// </editor-fold>//GEN-END:initComponents
 
     private void tfValorTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfValorTotalActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_tfValorTotalActionPerformed
 
     private void btFecharCompraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btFecharCompraActionPerformed
-
         dispose();
     }//GEN-LAST:event_btFecharCompraActionPerformed
 
@@ -153,6 +152,6 @@ public class JanelaInternaFinalizarCompras extends JanelaInternaBase {
 
     @Override
     public String tituloJanela() {
-        return "Finalizar Operação";
+        return "Finalizar Operação(ões)";
     }
 }

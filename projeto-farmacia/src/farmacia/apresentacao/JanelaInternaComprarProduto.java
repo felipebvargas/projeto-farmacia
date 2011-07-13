@@ -128,6 +128,6 @@ public class JanelaInternaComprarProduto extends JanelaInternaBase {
 
     @Override
     public String tituloJanela() {
-        return "Finalizar compra de Produto";
+        return "Finalizar Compra de Produto(s)";
     }
 }

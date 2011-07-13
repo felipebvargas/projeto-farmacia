@@ -186,6 +186,6 @@ public class JanelaInternaClienteNovo extends JanelaInternaBase {
 
     @Override
     public String tituloJanela() {
-        return "Novo Cliente";
+        return "Cadastro de Cliente";
     }
 }
