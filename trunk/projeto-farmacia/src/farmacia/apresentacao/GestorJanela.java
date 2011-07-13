@@ -4,8 +4,8 @@ import javax.swing.JDesktopPane;
 
 public class GestorJanela {
 
-    final int ALTURA = 30; // altura entre as janelas
-    final int DISTANCIA = 20; // distancia entre as janelas
+    final int ALTURA = 35; // altura entre as janelas
+    final int DISTANCIA = 25; // distancia entre as janelas
     private static GestorJanela gestor;
     private JDesktopPane areaTrabalho = new JDesktopPane();
 
