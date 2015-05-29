@@ -1,0 +1,2 @@
+Pensei bem e acho que as janelas estão precisando serem modificadas quanto a seu design.
+Elas não estão tão "atraentes" para os usuários,acho que devemos verificar isso e ver qual a melhor forma para tornar o sistema mais eficaz em relação a isto.

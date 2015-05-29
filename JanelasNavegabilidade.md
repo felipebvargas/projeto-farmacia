@@ -1,0 +1,1 @@
+O sistema deverá ter janelas de fácil navegabilidade para o usuário,ou seja,janelas de fácil entendimento sem muitos requisitos(somente com aqueles exigidos pelo cliente).
